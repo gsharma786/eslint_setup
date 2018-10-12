@@ -1,31 +1,28 @@
 {
-  "name": "projectTest",
+  "name": "testProject",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "lint": "eslint"
+    "test": "jest"
   },
-
   "dependencies": {
-    "react": "16.5.0",
-    "react-native": "0.57.2"
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.3"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^0.14.3",
     "jest": "23.6.0",
-    "lint-staged": "^7.3.0",
     "metro-react-native-babel-preset": "0.48.1",
     "prettier": "^1.14.3",
-    "react-test-renderer": "16.5.0"
+    "react-test-renderer": "16.6.0-alpha.8af6728"
   },
   "jest": {
     "preset": "react-native"
