@@ -7,7 +7,6 @@
     "test": "jest",
     "precommit": "lint-staged"
   },
-
   "lint-staged": {
     "*.{js,jsx}": ["eslint --fix", "git add"]
   },
@@ -16,6 +15,7 @@
     "react-native": "0.57.3"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
